@@ -10,5 +10,8 @@
   ],
   "login": {
     "connected": "OK"
-  }
+  },
+  "vault": {
+    "ports": 4
+  },
 }
