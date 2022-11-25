@@ -1,13 +1,56 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
+  "ports": {
+    "eth": [
+      {
+        "id": 1,
+        "configure": true,
+        "settings": {
+          "mac": "fe80::851e:56b:ed02:7926",
+          "ipv4": "192.168.20.151",
+          "ipv6": "fe80::851e:56b:ed02:7926",
+          "netmask": "255.255.255.0",
+          "broadcast": "192.168.20.255"
+        },
+        "connected" : true,
+      },
+      {
+        "id": 2,
+        "configure": false,
+        "settings": {
+          "mac": "",
+          "ipv4": "",
+          "ipv6": "",
+          "netmask": "",
+          "broadcast": ""
+        },
+        "connected" : false,
+      },
+      {
+        "id": 3,
+        "configure": false,
+        "settings": {
+          "mac": "",
+          "ipv4": "",
+          "ipv6": "",
+          "netmask": "",
+          "broadcast": ""
+        },
+        "connected" : false,
+      },
+      {
+        "id": 3,
+        "configure": false,
+        "settings": {
+          "mac": "",
+          "ipv4": "",
+          "ipv6": "",
+          "netmask": "",
+          "broadcast": ""
+        },
+        "connected" : false,
+      }
+    ]
+  },
   "login": {
     "connected": "OK"
   }
