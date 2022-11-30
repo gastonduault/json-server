@@ -14,7 +14,7 @@
 			},
 			{
 				"id": 2,
-				"configure": false,
+				"configure": true,
 				"settings": {
 					"mac": "",
 					"ipv4": "",
@@ -22,11 +22,11 @@
 					"netmask": "",
 					"broadcast": ""
 				},
-				"connected": false
+				"connected": true
 			},
 			{
 				"id": 3,
-				"configure": false,
+				"configure": true,
 				"settings": {
 					"mac": "",
 					"ipv4": "",
@@ -34,7 +34,7 @@
 					"netmask": "",
 					"broadcast": ""
 				},
-				"connected": false
+				"connected": true
 			},
 			{
 				"id": 4,
@@ -46,7 +46,7 @@
 					"netmask": "255.255.255.0",
 					"broadcast": "192.168.20.255"
 				},
-				"connected": false
+				"connected": true
 			}
 		]
 	},
