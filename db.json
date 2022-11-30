@@ -34,7 +34,7 @@
 					"netmask": "",
 					"broadcast": ""
 				},
-				"connected": true
+				"connected": false
 			},
 			{
 				"id": 4,
