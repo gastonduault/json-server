@@ -1,61 +1,34 @@
 {
-	"ports": {
-		"eth": [{
-				"id": 1,
-				"configure": true,
-				"settings": [
-					{
-						"mac": "fe80::851e:56b:ed02:7926"
-					},{
-						"ipv4": "192.168.20.151"
-					},{
-						"ipv6": "fe80::851e:56b:ed02:7926"
-					},{
-						"netmask": "255.255.255.0"
-					},{
-						"broadcast": "192.168.20.255"
-					}
-				],
-				"connected": true
-			},
-			{
-				"id": 2,
-				"configure": false,
-				"settings": {
-					"mac": "",
-					"ipv4": "",
-					"ipv6": "",
-					"netmask": "",
-					"broadcast": ""
-				},
-				"connected": false
-			},
-			{
-				"id": 3,
-				"configure": false,
-				"settings": {
-					"mac": "",
-					"ipv4": "",
-					"ipv6": "",
-					"netmask": "",
-					"broadcast": ""
-				},
-				"connected": false
-			},
-			{
-				"id": 4,
-				"configure": false,
-				"settings": {
-					"mac": "",
-					"ipv4": "",
-					"ipv6": "",
-					"netmask": "",
-					"broadcast": ""
-				},
-				"connected": false
-			}
-		]
-	},
+	"ports": [
+		{
+			"id": 1,
+			"name": "my ethernet",
+			"type": "physical",
+			"status": "enable",
+			"mac": "fe80::851e:56b:ed02:7926"
+		},
+		{
+			"id": 2,
+			"name": "",
+			"type": "",
+			"status": "",
+			"mac": ""
+		},
+		{
+			"id": 3,
+			"name": "",
+			"type": "",
+			"status": "",
+			"mac": ""
+		},
+		{
+			"id": 4,
+			"name": "",
+			"type": "",
+			"status": "",
+			"mac": ""
+		}
+	],
 	"login": {
 		"connected": "OK"
 	}
