@@ -3,9 +3,12 @@
 		{
 			"id": 1,
 			"name": "my ethernet",
-			"type": "physical",
+			"type": "wan",
 			"status": "enable",
 			"mac": "fe80::851e:56b:ed02:7926",
+			"cyberrange": "https://10.18.208.20",
+			"gate": "wan",
+			"workzone": "wz-03",
 			"id-tunnel": "140Z-38"
 		},
 		{
@@ -24,9 +27,9 @@
 		},
 		{
 			"id": 4,
-			"name": "",
-			"type": "",
-			"status": "",
+			"name": "my ethernet",
+			"type": "physical",
+			"status": "enable",
 			"mac": "fe80::851e:56b:ed02:7926"
 		}
 	],
