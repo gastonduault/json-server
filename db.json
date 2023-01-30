@@ -33,7 +33,12 @@
 			"mac": "fe80::851e:56b:ed02:7926"
 		}
 	],
-	"login": {
-		"connected": "OK"
-	}
+	"tunnels": [
+		{
+			"id": 0,
+			"gate": "d97af412-74b2-4157-8877-976b81e4e676",
+			"port": 1,
+			"status": "enable"
+		}
+	]
 }
