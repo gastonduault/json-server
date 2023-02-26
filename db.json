@@ -1,44 +1,5 @@
 {
-	"ports": [
-		{
-			"id": 1,
-			"name": "my ethernet",
-			"type": "wan",
-			"status": "enable",
-			"mac": "fe80::851e:56b:ed02:7926",
-			"cyberrange": "https://10.18.208.20",
-			"gate": "wan",
-			"workzone": "wz-03",
-			"id-tunnel": "140Z-38"
-		},
-		{
-			"id": 2,
-			"name": "",
-			"type": "",
-			"status": "",
-			"mac": "fe80::851e:56b:ed02:7926"
-		},
-		{
-			"id": 3,
-			"name": "",
-			"type": "",
-			"status": "",
-			"mac": "fe80::851e:56b:ed02:7926"
-		},
-		{
-			"id": 4,
-			"name": "my ethernet",
-			"type": "physical",
-			"status": "enable",
-			"mac": "fe80::851e:56b:ed02:7926"
-		}
-	],
-	"tunnels": [
-		{
-			"id": 0,
-			"gate": "d97af412-74b2-4157-8877-976b81e4e676_",
-			"port": [1,2],
-			"status": "enable"
-		}
-	]
+	"login":{
+		"success"
+	}
 }
