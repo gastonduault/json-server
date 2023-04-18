@@ -1,12 +1,13 @@
 {
-	"notifications":[
-		"connect cyberrange": {
-			"date": 18/04/23,
+	"notifications": [{
+			"name": "connect cyberrange",
+			"date": "18 / 04 / 23",
 			"status": "succes"
 		},
-		"connect gate": {
-			"date": 18/04/23,
+		{
+			"name": "connect gate",
+			"date": "18 / 04 / 23",
 			"status": "succes"
-		},
+		}
 	]
 }
